@@ -18,7 +18,7 @@ export async function Navbar({currency}: {currency: string}) {
           >
             <LogoSquare />
             <div className="ml-2 flex-none text-sm font-medium uppercase md:hidden lg:block">
-              Launch on Fourthwall!
+              ARTFITS BY JAYNE
             </div>
           </Link>
           {collections.length ? (

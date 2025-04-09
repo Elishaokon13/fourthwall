@@ -11,7 +11,7 @@ export function Wrapper({ children, currency, cart }: { children: ReactNode, cur
     <main>
       {children}
       <Toaster closeButton />
-      <WelcomeToast />
+      
     </main>
   </CartProvider>
 }
